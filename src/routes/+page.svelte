@@ -1,66 +1,62 @@
 <script>
-	import { recommendations, star1, star2, star3, formSubmitted } from '../stores/store';
+	import { recommendations, star1, star2, star3, formSubmitted, loading } from '../stores/store';
 	import { goto } from '$app/navigation';
 	import Spinner from '../spinner/spinner.svelte';
-	import { loading } from '../stores/store';
 	import { PUBLIC_BACKEND_BASE_URL } from '$env/static/public';
+	import { onMount } from 'svelte';
+
+	// Add logging to trace the state
+	$: console.log('Star states:', $star1, $star2, $star3);
 
 	export async function addToRecommendations(evt) {
-		// spinner shits
-		loading.update((value) => {
-			return true;
-		});
+		loading.set(true);
 
 		const reviewData = {
 			recommendation: evt.target['recommendation'].value
 		};
 
-		const resp = await fetch(PUBLIC_BACKEND_BASE_URL + '/new-bad-review', {
-			method: 'POST',
-			mode: 'cors',
-			headers: {
-				'Content-Type': 'application/json'
-			},
-			body: JSON.stringify(reviewData)
-		});
+		try {
+			const resp = await fetch(PUBLIC_BACKEND_BASE_URL + '/new-bad-review', {
+				method: 'POST',
+				mode: 'cors',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(reviewData)
+			});
 
-		if (resp.status == 200) {
-			// spinner shits
-			loading.update((value) => {
-				return false;
-			});
-			formSubmitted.set(true);
-		} else {
-			// spinner shits
-			loading.update((value) => {
-				return false;
-			});
-			formSubmitted.set(true);
+			if (resp.status == 200) {
+				formSubmitted.set(true);
+			}
+		} catch (error) {
+			console.error('Error submitting recommendation:', error);
+		} finally {
+			loading.set(false);
 		}
 	}
 
 	function clickStar1() {
+		console.log('Star 1 clicked');
 		star2.set(false);
 		star3.set(false);
 		star1.set(true);
-		let formToShow = document.querySelector('.recommendation-form');
-		formToShow.classList.remove('hidden');
+		document.querySelector('.recommendation-form').classList.remove('hidden');
 	}
 
 	function clickStar2() {
+		console.log('Star 2 clicked');
 		star3.set(false);
 		star1.set(true);
 		star2.set(true);
-		let formToShow = document.querySelector('.recommendation-form');
-		formToShow.classList.remove('hidden');
+		document.querySelector('.recommendation-form').classList.remove('hidden');
 	}
 
 	function clickStar3() {
+		console.log('Star 3 clicked');
 		star1.set(true);
 		star2.set(true);
 		star3.set(true);
-		let formToShow = document.querySelector('.recommendation-form');
-		formToShow.classList.remove('hidden');
+		document.querySelector('.recommendation-form').classList.remove('hidden');
 	}
 
 	function clickStar4() {
@@ -72,6 +68,14 @@
 		window.location.href =
 			'https://www.google.com/search?si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7vzIn6vo1I14Od8RALYKInQ_rzwmzZrHhYtJZ8mU5yNZPQPEAd6QIXtT5YtzhQZPxDKWZFuPQGMRCu2oY5bbz51b6AJYvoqY4NOHCtUzcDL4Z1b8YA%3D%3D&hl=en-MY&q=poliklinik+utama+port+dickson+reviews&kgs=0e755424154859a1&shndl=30&shem=ssim&source=sh/x/loc/osrp/m5/3';
 	}
+
+	onMount(() => {
+		// Ensure stars are initialized properly on mount
+		console.log('Component mounted, initializing stars');
+		star1.set(false);
+		star2.set(false);
+		star3.set(false);
+	});
 </script>
 
 <head>
