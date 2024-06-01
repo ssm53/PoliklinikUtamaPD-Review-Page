@@ -65,12 +65,12 @@
 
 	function clickStar4() {
 		window.location.href =
-			'https://www.google.com/search?q=poliklinik+utama+pd&rlz=1C5CHFA_enGB941GB942&oq=poliklinik+utama+pd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzUwMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31cdf18f9b065735:0xc4529213865b6f19,3,,,,';
+			'https://www.google.com/search?si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7vzIn6vo1I14Od8RALYKInQ_rzwmzZrHhYtJZ8mU5yNZPQPEAd6QIXtT5YtzhQZPxDKWZFuPQGMRCu2oY5bbz51b6AJYvoqY4NOHCtUzcDL4Z1b8YA%3D%3D&hl=en-MY&q=poliklinik+utama+port+dickson+reviews&kgs=0e755424154859a1&shndl=30&shem=ssim&source=sh/x/loc/osrp/m5/3';
 	}
 
 	function clickStar5() {
 		window.location.href =
-			'https://www.google.com/search?q=poliklinik+utama+pd&rlz=1C5CHFA_enGB941GB942&oq=poliklinik+utama+pd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzUwMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31cdf18f9b065735:0xc4529213865b6f19,3,,,,';
+			'https://www.google.com/search?si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7vzIn6vo1I14Od8RALYKInQ_rzwmzZrHhYtJZ8mU5yNZPQPEAd6QIXtT5YtzhQZPxDKWZFuPQGMRCu2oY5bbz51b6AJYvoqY4NOHCtUzcDL4Z1b8YA%3D%3D&hl=en-MY&q=poliklinik+utama+port+dickson+reviews&kgs=0e755424154859a1&shndl=30&shem=ssim&source=sh/x/loc/osrp/m5/3';
 	}
 </script>
 
