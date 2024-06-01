@@ -81,7 +81,7 @@
 	<Spinner />
 	<div class="min-h-screen flex flex-col items-center justify-center">
 		<h1 class="text-2xl sm:text-3xl md:text-4xl text-center mt-10 md:mt-40">
-			Klinik Keluarga Desa Review Page
+			Poliklinik Utama PD Review Page
 		</h1>
 		{#if $formSubmitted}
 			<h1 class="text-xl sm:text-2xl md:text-4xl text-center mt-10 md:mt-20">
