@@ -65,12 +65,12 @@
 
 	function clickStar4() {
 		window.location.href =
-			'https://www.google.com/search?q=klinik+keluarga+desa&rlz=1C5CHFA_enGB941GB942&oq=klini&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5MgwIAhBFGDsYsQMYgAQyBggDEEUYOzIMCAQQIxgnGIAEGIoFMgoIBRAAGLEDGIAEMgoIBhAAGLEDGIAEMhAIBxAuGK8BGMcBGIAEGI4FMgoICBAAGLEDGIAEMgcICRAAGI8C0gEIMjE5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31cc4a1594b2be97:0x19a2ad491f0a259b,3,,,,&wptab=si:ACC90nzcy7sviKw0NTZoUBUzhQehr3jouizIrVSf6avWI23m1fHqkWGN96paIDBjsWFEtq63kgYTGn5xkdxCRaJ2O4t8lsyQ3NddGtYrUPpvQec083gE8FvIY-IbKpNV6LfpUfb00vrlzAicXLuH6RBR2vg0OzNpvw%3D%3D';
+			'https://www.google.com/search?q=poliklinik+utama+pd&rlz=1C5CHFA_enGB941GB942&oq=poliklinik+utama+pd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzUwMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31cdf18f9b065735:0xc4529213865b6f19,3,,,,';
 	}
 
 	function clickStar5() {
 		window.location.href =
-			'https://www.google.com/search?q=klinik+keluarga+desa&rlz=1C5CHFA_enGB941GB942&oq=klini&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5MgwIAhBFGDsYsQMYgAQyBggDEEUYOzIMCAQQIxgnGIAEGIoFMgoIBRAAGLEDGIAEMgoIBhAAGLEDGIAEMhAIBxAuGK8BGMcBGIAEGI4FMgoICBAAGLEDGIAEMgcICRAAGI8C0gEIMjE5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31cc4a1594b2be97:0x19a2ad491f0a259b,3,,,,&wptab=si:ACC90nzcy7sviKw0NTZoUBUzhQehr3jouizIrVSf6avWI23m1fHqkWGN96paIDBjsWFEtq63kgYTGn5xkdxCRaJ2O4t8lsyQ3NddGtYrUPpvQec083gE8FvIY-IbKpNV6LfpUfb00vrlzAicXLuH6RBR2vg0OzNpvw%3D%3D';
+			'https://www.google.com/search?q=poliklinik+utama+pd&rlz=1C5CHFA_enGB941GB942&oq=poliklinik+utama+pd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzUwMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31cdf18f9b065735:0xc4529213865b6f19,3,,,,';
 	}
 </script>
 
