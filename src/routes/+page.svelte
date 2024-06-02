@@ -148,7 +148,7 @@
 				></i>
 			</div>
 
-			<div class="flex justify-center items-center recommendation-form hidden mt-10">
+			<div class="flex w-full justify-center items-center recommendation-form hidden mt-10">
 				<form
 					on:submit|preventDefault={addToRecommendations}
 					class="w-full sm:w-3/4 md:w-1/2 bg-white shadow-md rounded-lg p-4 sm:p-6 md:p-8"
