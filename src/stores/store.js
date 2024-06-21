@@ -11,3 +11,5 @@ export const star3 = writable(false);
 export const formSubmitted = writable(false);
 
 export const loading = writable(false);
+
+export const language = writable('en'); // language
